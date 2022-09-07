@@ -4,7 +4,7 @@ import Product from '../product/Product'
 import './products.css';
 import Slider from '@mui/material/Slider';
 
-import { AppBar, Typography, Toolbar, Tabs, Tab, button } from '@mui/material';
+import { AppBar, Typography, Toolbar, Tabs } from '@mui/material';
 
 
 const URL = "http://localhost:5000/products";

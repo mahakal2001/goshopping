@@ -8,7 +8,7 @@ const Doctor = (props) => {
   const { _id, name, price, image } = props.product;
   return (
     <div className="cardss ">
-      <img src={image} />
+      <img src={image} alt='/' />
       <h2 className='name'>Product Name : {name}</h2>
       <h2 className='name'>Price : <b>Rs.{price}</b></h2>
       <div className="btnnn">
